@@ -8,7 +8,7 @@ public class NumberGuessGame {
         Random rand = new Random();
 
         int roundsWon = 0;
-        int totalAttempts = 0; // Track total attempts across all rounds
+        int totalAttempts = 0;
         boolean playAgain;
 
         do {
@@ -21,7 +21,7 @@ public class NumberGuessGame {
                 System.out.print("Turn " + turn + "/" + MAX_TURNS + 
                                  " – Enter your guess (1-100): ");
                 int guess = sc.nextInt();
-                totalAttempts++; // Increment total attempts
+                totalAttempts++;
 
                 if (guess == secret) {
                     System.out.println("Correct! 🎉");
@@ -46,7 +46,7 @@ public class NumberGuessGame {
 
         System.out.println("\nThanks for playing!");
         System.out.println("Rounds won: " + roundsWon);
-        System.out.println("Total attempts used: " + totalAttempts); // Display total attempts
+        System.out.println("Total attempts used: " + totalAttempts);
         sc.close();
     }
 }
