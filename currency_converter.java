@@ -47,16 +47,16 @@ public class currency_converter{
     }
 
     public static double usdToRupee(double USD) {
-        return USD * 83.47;  // Date: 01/05/24
+        return USD * 83.47;
     }
     public static double RupeeToUsd(double Rupee) {
-        return Rupee * 0.0119804;   // Date 01/05/2024
+        return Rupee * 0.0119804; 
     }
     public static double euroToRupee(double EURO) {
-        return EURO *89.10;   //Date: 01/05/24
+        return EURO *89.10;
     }
     public static double RupeeToEuro(double Rupee) {
-        return Rupee *0.0113;   //Date: 01/05/24
+        return Rupee *0.0113;
     }
     
 
